@@ -7,7 +7,7 @@ cask "burnline" do
   desc "Menu bar app showing Claude usage against the weekly pace target"
   homepage "https://github.com/Stixum/Burnline"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Burnline.app"
 
