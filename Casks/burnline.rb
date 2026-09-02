@@ -1,6 +1,6 @@
 cask "burnline" do
-  version "1.2"
-  sha256 "5c73de9dd0dfa919127cf2cd344e514e996f0495534aeeeab4af85b4f4c3cfa5"
+  version "1.3"
+  sha256 "8e284c0379757d58e0d54050b90865379679ed57bde96c7bfe1a737c918f0624"
 
   url "https://github.com/Stixum/Burnline/releases/download/v#{version}/Burnline.dmg"
   name "Burnline"
