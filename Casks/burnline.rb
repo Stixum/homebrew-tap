@@ -16,7 +16,5 @@ cask "burnline" do
   # A cask cannot safely edit a user's config file, and a leftover key pointing
   # at a deleted binary merely prints "command not found" in the status line —
   # annoying, but it does not break Claude Code. Removing it wrongly would.
-  zap trash: [
-    "~/Library/Application Support/Burnline",
-  ]
+  zap trash: "~/Library/Application Support/Burnline"
 end
